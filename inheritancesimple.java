@@ -1,7 +1,7 @@
 package javainterface;
 
 
- class animal{
+ class animals{
 
 	public void eat() {
 		System.out.println( "eating");
@@ -14,7 +14,7 @@ package javainterface;
 	}
 }
  
- class lion extends animal{
+ class lion extends animals{
 	 public void roar() {
 			System.out.println( "roaring");
 		}

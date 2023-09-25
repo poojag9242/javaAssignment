@@ -1,7 +1,10 @@
 package javainterface;
 
 public interface Polygon {
-	
+	static int a=19;
+	 final int b=2;
+	 int c=1;
+	 public int d=2;
 	void getArea();//abstract method
 	
 	public static void display() {  //static method

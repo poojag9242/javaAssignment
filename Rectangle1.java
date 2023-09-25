@@ -4,11 +4,11 @@ package javainterface;
 class  Rectangle1 implements Polygon {
 	
 	  public void getArea() {
-	    int length = 6;
-	    int breadth = 5;
-	    int area=length * breadth;
+	    //int a = 6;
+	    //int b = 5;
+	    int area=a * b;
 	  
-	    System.out.println("The area of the rectangle is " +length * breadth);
+	    System.out.println("The area of the rectangle is " +area);
 	  }
 
 	  // overrides the getSides()

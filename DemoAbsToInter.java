@@ -9,8 +9,8 @@ public class DemoAbsToInter extends DemoAbstract {
 		d.go();
 		d.come();
 		d.eat();
-		
-		
+		DemoAbstract.sleep();
+		d.run();
 	}
 
 
@@ -23,13 +23,13 @@ public void go() {
 
 @Override
 public void come() {
-	System.out.println("going");
+	System.out.println("coming");
 	
 }
 
 @Override
 void eat() {
-	System.out.println("going");
+	System.out.println("eating");
 	
 }
 }
